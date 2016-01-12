@@ -1,10 +1,7 @@
 [![view on npm](http://img.shields.io/npm/v/c11n.svg)](https://www.npmjs.com/package/c11n)
 [![npm module downloads per month](http://img.shields.io/npm/dm/c11n.svg)](https://www.npmjs.com/package/c11n)
-[![Build Status](https://travis-ci.org/schwarzkopfb/c11n.svg?branch=master)](https://travis-ci.org/schwarzkopfb/c11n)
 
 # c11n
-
-## What's `c11n`?
 
 `c11n` is a dead simple configuration loader and parser for node deployments.  
 It outputs an object that encapsulates unified configuration settings from 
@@ -80,9 +77,9 @@ var c11n = require('c11n')
 
 ### c11n([filePaths...], [options], [callback]) ⇒ Promise
 
-_options.prefix_: Include only those `env` variables which are starting with this prefix. Defaults to `null`. 
-_options.dir_: Directory path to try to find and include `NODE_ENV`.json. Defaults to `null`.
-_options.dirs_: An array of directory paths. Each of them will be treated like _options.dir_.
+_options.prefix_ Include only those `env` variables which are starting with this prefix. Defaults to `null`.<br> 
+_options.dir_ Directory path to try to find and include `NODE_ENV`.json. Defaults to `null`.<br>
+_options.dirs_ An array of directory paths. Each of them will be treated like _options.dir_.
 
 Gather and merge configuration from `env`, additional `.json` files and `argv` in this order. 
 `c11n` supports both error-first `callback` and `Promise` APIs.
@@ -95,7 +92,7 @@ It's the `module.exports` of this package, same as the above-mentioned.
 
 ### c11n.loadFromEnv([options]) ⇒ Object
 
-_options.prefix_: Include only those `env` variables which are starting with this prefix. Defaults to `null`. 
+_options.prefix_ Include only those `env` variables which are starting with this prefix. Defaults to `null`. 
 
 Parse configuration from `process.env` and return result immediately.
 

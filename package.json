@@ -21,9 +21,17 @@
     "file",
     "json"
   ],
-  "author": "Schwarzkopf Balazs <schwarzkopfb@icloud.com>",
+  "author": "Schwarzkopf Balázs <schwarzkopfb@icloud.com>",
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/c11n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/c11n/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/c11n#readme"
 }
