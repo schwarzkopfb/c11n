@@ -1,0 +1,170 @@
+{
+  "config": {
+    "access": "",
+    "always": {
+      "auth": ""
+    },
+    "argv": "{\"remain\":[],\"cooked\":[\"test\"],\"original\":[\"test\"]}",
+    "bin": {
+      "links": true
+    },
+    "browser": "",
+    "ca": "",
+    "cache": {
+      "_": "/Users/schwarzkopfb/.npm",
+      "lock": {
+        "retries": 10,
+        "stale": 60000,
+        "wait": 10000
+      },
+      "max": "Infinity",
+      "min": 10
+    },
+    "cafile": "",
+    "cert": "",
+    "color": true,
+    "depth": "Infinity",
+    "description": true,
+    "dev": "",
+    "editor": "vi",
+    "email": "schwarzkopfb@wearebreak.com",
+    "engine": { "strict": "" },
+    "fetch": {
+      "retries": 2,
+      "retry": {
+        "factor": 10,
+        "maxtimeout": 60000,
+        "mintimeout": 10000
+      }
+    },
+    "force": "",
+    "git": {
+      "_": "git",
+      "tag": { "version": true }
+    },
+    "global": "",
+    "globalconfig": "/usr/local/etc/npmrc",
+    "globalignorefile": "/usr/local/etc/npmignore",
+    "group": 20,
+    "heading": "npm",
+    "https": { "proxy": "" },
+    "if": { "present": "" },
+    "ignore": { "scripts": "" },
+    "init": {
+      "author": {
+        "email": "",
+        "name": "",
+        "url": ""
+      },
+      "license": "ISC",
+      "module": "/Users/schwarzkopfb/.npm-init.js",
+      "version": "1.0.0"
+    },
+    "json": "",
+    "key": "",
+    "link": "",
+    "local": { "address": "" },
+    "loglevel": "warn",
+    "long": "",
+    "message": "%s",
+    "node": { "version": "4.2.3" },
+    "npat": "",
+    "onload": { "script": "" },
+    "optional": true,
+    "parseable": "",
+    "prefix": "/usr/local",
+    "production": "",
+    "proprietary": { "attribs": true },
+    "proxy": "",
+    "rebuild": { "bundle": true },
+    "registry": "https://registry.npmjs.org/",
+    "rollback": true,
+    "save": {
+      "_": "",
+      "bundle": "",
+      "dev": "",
+      "exact": "",
+      "optional": "",
+      "prefix": "^"
+    },
+    "scope": "",
+    "searchexclude": "",
+    "searchopts": "",
+    "searchsort": "name",
+    "shell": "/bin/bash",
+    "shrinkwrap": true,
+    "sign": { "git": { "tag": "" } },
+    "spin": true,
+    "strict": { "ssl": true },
+    "tag": {
+      "_": "latest",
+      "version": { "prefix": "v" }
+    },
+    "tmp": "/var/folders/c0/vmp4dztd49541twbyqv4yq000000gn/T",
+    "umask": 22,
+    "unicode": true,
+    "unsafe": { "perm": true },
+    "usage": "",
+    "user": {
+      "_": "",
+      "agent": "npm/2.14.7 node/v4.2.3 darwin x64"
+    },
+    "userconfig": "/Users/schwarzkopfb/.npmrc",
+    "version": "",
+    "versions": "",
+    "viewer": "man"
+  },
+  "execpath": "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+  "lifecycle": {
+    "event": "test",
+    "script": "node ./test"
+  },
+  "node": {
+    "execpath": "/usr/local/bin/node"
+  },
+  "package": {
+    "author": {
+      "email": "schwarzkopfb@icloud.com",
+      "name": "Schwarzkopf Balazs"
+    },
+    "dependencies": {
+      "minimist": "^1.2.0"
+    },
+    "description": "Dead simple configuration loader and parser for node deployments.",
+    "keywords": {
+      "0": "config",
+      "1": "configuration",
+      "2": "loader",
+      "3": "parser",
+      "4": "env",
+      "5": "environment",
+      "6": "var",
+      "7": "variable",
+      "8": "args",
+      "9": "arguments",
+      "10": "argv",
+      "11": "file",
+      "12": "json"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "name": "c11n",
+    "scripts": {
+      "test": "node ./test"
+    },
+    "version": "0.1.0"
+  },
+  "this json file has been merged into configuration": "as is",
+  "notice the spaces in": { "key": "names" },
+  "test": {
+    "_": "batman",
+    "arg1": "foo",
+    "arg2": "bar",
+    "arg3": {
+      "_": 42,
+      "val": "superman"
+    }
+  },
+  "this file will also be merged into the config object": "as is",
+  "env": "test"
+}

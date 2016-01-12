@@ -1,0 +1,11 @@
+{
+  "redis": {
+    "host": "redis.my-great-app.com",
+    "port": 6379
+  },
+
+  "facebook": {
+    "id": 123456789,
+    "key": "myfacebookapikey"
+  }
+}

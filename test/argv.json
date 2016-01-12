@@ -1,0 +1,9 @@
+[
+  "node",
+  "./test/",
+  "--test_arg1=foo",
+  "--..test_._arg3_val=superman",
+  "--test.arg2=bar",
+  "--test=batman",
+  "--__test._.arg3..=42"
+]

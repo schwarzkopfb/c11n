@@ -1,0 +1,29 @@
+{
+  "name": "c11n",
+  "version": "0.9.1",
+  "description": "Dead simple configuration loader and parser for node deployments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "loader",
+    "parser",
+    "env",
+    "environment",
+    "var",
+    "variable",
+    "args",
+    "arguments",
+    "argv",
+    "file",
+    "json"
+  ],
+  "author": "Schwarzkopf Balazs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
